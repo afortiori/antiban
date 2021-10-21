@@ -1,7 +1,8 @@
 # antiban
-discord bot to unban entire ban list
+discord bot to unban entire ban list. good if a rouge mod did a total purge. 
 
-To run, download antiban.py.
-Add in your token, and adjust the write and file_path flags if need be. 
-Then run `Python3 antiban.py` You may have to use Pip3 to download discord.py like this `Pip3 install discord` 
-Then, just type `$unban` in the server to unban everyone. You will need unban privs. 
+* To run, download antiban.py.
+* Then, copy and paste in the token. If you don't know what that is, the first half of this tutorial should cover it: https://www.freecodecamp.org/news/create-a-discord-bot-with-python/
+* Adjust the write and file_path flags if need be. As is, everyone you unban will have their usernames written to a text file called "list.txt." Changing write to false will make that not happen. If you want to write to a new file, make sure you've created it in the same folder that antiban.py is in.
+* Then run `Python3 antiban.py` in the terminal. You may have to use Pip3 to download discord.py like this `Pip3 install discord` Before you do that you will need to navigate to the proper folder, using `cd yourfilepath`. 
+* Then, just type `$unban` in the server to unban everyone. You will need unban privs. 
