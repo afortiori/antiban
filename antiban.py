@@ -9,7 +9,7 @@ import discord,os,sys
 from discord.ext import commands
 
 write = True  
-file_path = "list.txt"
+file_path = "test.txt"
 
 bot = commands.Bot(command_prefix='$')
 
@@ -30,5 +30,5 @@ async def unban(ctx):
                 f.write('\n')
                 f.write(str(user.user))
 
-TOKEN = "ODk5MDI0ODExNTg0NTI4NDg0.YWswGg.NDtWKRkMIwwRI7rP11E7nzCfxNA"  
+TOKEN = "Your Token Here"  
 bot.run(TOKEN)
